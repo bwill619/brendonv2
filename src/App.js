@@ -1,27 +1,28 @@
 import logo from "./logo.svg";
 import "./App.css";
+import About from "./Components/About";
+import Experience from "./Components/Experience";
+import Skills from "./Components/Skills";
+import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="title">Brendon Williams Charlotte, NC</p>
-        <a className="subHeading"></a>
-
-        <p className="Experience">Experience</p>
-
-        <p classnName="Projects">Projects</p>
-
-        <p className="Skills">Skills</p>
-
-        <p className="Contact Title">Contact</p>
-        <p className="Contact">
-        bwill619@icloud.com
-        https://www.linkedin.com/in/brendon-williams/
-        </p>
-
+        <h1>Brendon Williams</h1>
       </header>
+      <main>
+        <h1>About</h1>
+        <About />
+        <h1>Experience</h1>
+        <Experience />
+        <h1>Skills</h1>
+        <Skills />
+        <h1>Projects</h1>
+        <Projects/>
+        <Contact/>
+      </main>
     </div>
   );
 }
