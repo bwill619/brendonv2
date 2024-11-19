@@ -25,9 +25,39 @@ main {
   background-color: #282c34;
   color: white;
 }
+#about h1 {
+}
+#about h2 {
+}
+#about ul {
+}
 
-.h1 {
-  color: white;
+#experience h1 {
+}
+#experience h2 {
+}
+#experience ul {
+}
+
+#skills h1 {
+}
+#skills h2 {
+}
+#skills ul {
+}
+
+#projects h1 {
+}
+#projects h2 {
+}
+#projects ul {
+}
+
+#contact h1 {
+}
+#contact h2 {
+}
+#contact ul {
 }
 
 ul {
@@ -38,4 +68,3 @@ ul {
 html {
   scroll-behavior: smooth;
 }
-
